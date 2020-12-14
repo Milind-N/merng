@@ -1,0 +1,26 @@
+{
+  "name": "merng",
+  "version": "1.0.0",
+  "description": "MongoDB, Express.js, React, Node.js and GraphQL stack ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "Social",
+    "Media",
+    "App",
+    "Express.js",
+    "GraphQL",
+    "MongoDB",
+    "Node.js",
+    "React"
+  ],
+  "author": "Milind Nayse",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.19.0",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.11.7"
+  }
+}
