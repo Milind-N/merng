@@ -4,7 +4,8 @@
   "description": "MongoDB, Express.js, React, Node.js and GraphQL stack ",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "nodemon index"
   },
   "keywords": [
     "Social",
@@ -20,7 +21,12 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^2.19.0",
+    "bcryptjs": "^2.4.3",
     "graphql": "^15.4.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
